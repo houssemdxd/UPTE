@@ -1,0 +1,196 @@
+#title
+{
+    
+    background-color: #1994b3;
+    padding: 5% 10%;
+    overflow: hidden;
+    
+}
+
+#h1{
+    font-size: 3rem;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+#brand
+{   color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.apple
+{
+    color: white;
+}
+@media (max-width:1024px)
+{   #title
+    {text-align: center;
+    width: 100%;}
+    .rotate
+    {
+        display: none;
+       
+    }
+    .center
+    {
+        text-align: center;
+        padding: 5%;
+    }
+
+}
+.rotate
+{
+    transform: rotate(20deg);
+    position: absolute;
+
+   
+}
+.center
+{
+    text-align: center;
+}
+.container-fluid
+{
+    
+    padding: 3% 15% 7% 15%;}
+.margin
+{
+    margin: 100px 0;
+}
+.p-style{
+    margin: auto;
+    color: #8f8f8f;
+    width: 50%;
+}
+.mr{
+    margin-bottom: 10px;
+}
+.mp-auto
+{
+
+    position: relative;
+    left: 580px;
+
+}
+.nav-item
+{
+font-family: Arial, Helvetica, sans-serif;
+ padding:0 15px ;
+}
+.nav-link
+{   
+    font-size: 1.2rem;
+ font-family: 'Montserrat', sans-serif;;
+}
+
+#features{
+ position: relative;
+ z-index: 1;
+padding: 7% 15%;
+background-color: white;
+}
+
+.ctar
+{
+    padding-bottom: 3%;
+    text-align: center;
+    padding: 7% 0%;
+}
+#cta
+{
+    background-color: rgb(39 172 210);
+}
+#find
+{
+    font-size: 3rem;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 60%;
+    margin: auto;
+}
+#footer
+{   padding: 5% ;
+    text-align: center;
+
+}
+.card-body
+{
+    text-align: center;
+    padding-right;0: 
+}
+.style
+{
+    width: 100%;
+    border-radius: 10% 10% 0 0;
+    height: 100;
+    border: 1px solid #dfdfdf;
+}
+.border-card
+{
+    border-top-left-radius: 100%;
+}
+.cercle
+{
+    width: 200px;
+    height: 200px;
+    
+   
+    background: rgb(70 201 238 / 40%);
+    position: absolute;z-index: 0;
+    right: 0px;
+    bottom: 50px;
+    border-radius:100% ;
+    box-sizing: border-box;
+}
+/* {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+}
+* {
+    box-sizing: border-box;*/
+
+.btnby
+{
+
+
+background-color: rgba(238, 70, 70, 0.4);;
+    padding: 5px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 15px auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid blue;
+  
+    height: 40px;
+
+
+}
+.trans{
+float: right;
+margin-top:-90px:
+
+}
+#pipe
+{
+
+    font-size: 30px;
+}
+.sign
+{
+color:white !important;
+
+}
+.sign:hover{
+color: black  !important;;
+}
+ 
+.plan-image-style
+{
+
+    width:300px!important;
+    height: 100px !important;;
+}

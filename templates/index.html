@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Upte</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!--text-style-->
+<style>
+
+#title
+{
+    
+    background-color: #1994b3;
+    padding: 5% 10%;
+    overflow: hidden;
+    
+}
+
+#h1{
+    font-size: 3rem;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+#brand
+{   color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.apple
+{
+    color: white;
+}
+@media (max-width:1024px)
+{   #title
+    {text-align: center;
+    width: 100%;}
+    .rotate
+    {
+        display: none;
+       
+    }
+    .center
+    {
+        text-align: center;
+        padding: 5%;
+    }
+
+}
+.rotate
+{
+    transform: rotate(20deg);
+    position: absolute;
+
+   
+}
+.center
+{
+    text-align: center;
+}
+.container-fluid
+{
+    
+    padding: 3% 15% 7% 15%;}
+.margin
+{
+    margin: 100px 0;
+}
+.p-style{
+    margin: auto;
+    color: #8f8f8f;
+    width: 50%;
+}
+.mr{
+    margin-bottom: 10px;
+}
+.mp-auto
+{
+
+    position: relative;
+    left: 580px;
+
+}
+.nav-item
+{
+font-family: Arial, Helvetica, sans-serif;
+ padding:0 15px ;
+}
+.nav-link
+{   
+    font-size: 1.2rem;
+ font-family: 'Montserrat', sans-serif;;
+}
+
+#features{
+ position: relative;
+ z-index: 1;
+padding: 7% 15%;
+background-color: white;
+}
+
+.ctar
+{
+    padding-bottom: 3%;
+    text-align: center;
+    padding: 7% 0%;
+}
+#cta
+{
+  margin-top: 50px;
+    background-color: rgb(39 172 210);
+}
+#find
+{
+    font-size: 3rem;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 60%;
+    margin: auto;
+}
+#footer
+{   padding: 5% ;
+    text-align: center;
+
+}
+.card-body
+{
+    text-align: center;
+    padding-right;0: 
+}
+.style
+{
+    width: 100%;
+    border-radius: 10% 10% 0 0;
+    height: 100;
+    
+}
+.border-card
+{
+    border-top-left-radius: 100%;
+}
+.cercle
+{
+    width: 200px;
+    height: 200px;
+    
+   
+    background: rgb(70 201 238 / 40%);
+    position: absolute;z-index: 0;
+    right: 0px;
+    bottom: 50px;
+    border-radius:100% ;
+    box-sizing: border-box;
+}
+/* {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+}
+* {
+    box-sizing: border-box;*/
+
+.btnby
+{
+
+
+background-color: rgba(238, 70, 70, 0.4);;
+    padding: 5px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 15px auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid blue;
+  
+    height: 40px;
+
+
+}
+.trans{
+float: right;
+margin-top:-90px;
+
+}
+#pipe
+{
+
+    font-size: 30px;
+}
+.sign
+{
+color:white !important;
+
+}
+.sign:hover{
+color: black  !important;;
+}
+ 
+.plan-image-style
+{
+
+    width:300px!important;
+    height: 100px !important;;
+}
+</style>
+  
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+
+
+<!--font awsome-->
+
+
+  <!-- CSS only -->
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/3648582014.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/3648582014.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+ 
+  <section  id="title">
+ <div  class="container-fluid size ">
+    <!-- Nav Bar -->
+    <a class="navbar-brand" href="#"><span id ="brand">Upte </span></a>
+    <nav class="navbar navbar-expand-lg navbar-light trans">
+      
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup trans" >
+          <ul class="navbar-nav align-self-end">
+            <li class="nav-item"><a class="nav-link active sign" aria-current="page" href="https://dev-nxlqlwjfdtkrkj3z.us.auth0.com/authorize?audience=upte&response_type=token&client_id=8Mc71CttezYyJf2R2QHBFdRrCt7bOHlo&redirect_uri=http://127.0.0.1:5000/application" style="display:inline-block ;">Inscription</a><span id="pipe" class="sign">|</span><a style="display:inline-block ;"class="nav-link nav-link active sign" href="#">Connexion</a></li>
+             
+                  </ul>
+         
+        </div>
+      
+    </nav>
+
+
+    <!-- Title -->
+    
+    <div class="row  fixed"> 
+        <div class="col-lg-6">
+      
+      <h1 id ="h1">reviser des testes psycotechnique avec Upte</h1>
+     
+      
+      <button type="button" class=" btn btn-outline-light btn-lg">Commencer maintenant</button>
+    </div>
+    <div class="col-lg-6"> 
+      <div class="cercle"></div>
+      <img src="static/emp.jpg" alt="iphone-mockup" class="rotate" >
+    </div>
+  </div>
+
+</div>
+  </section>
+
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container cln margin">
+      <div class="row ">
+
+
+              <div class="col-lg-4 center">
+              <img src="static/circle-check-solid.svg" class="mr" height="60px" alt="">
+        <h3>facile a utilise.</h3>
+        <p class="p-style">fiable et facilte a utilise.</p>
+              </div>
+              <div class="col-lg-4 center">
+              <img src="static/bullseye-solid.svg " class="mr" height="60px" alt="" style="color: red;">
+                
+        <h3>precise</h3>
+        <p class="p-style">vous trouvez des testes specifique.</p>
+               </div>  
+              <div class="col-lg-4 center">
+                <img src="static/heart-solid.svg" class="mr"  height="60px" alt="">
+
+        <h3>augmentez vos chances</h3>
+        <p class="p-style">gagner une experience et augmenter vod chances a reussir</p>
+                </div>
+
+
+
+      </div>
+      </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="static/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <div class="container">
+          <!---cards-->
+    <div class="row" style="text-align:center">
+      <div class="col-md-3" style="margin-right:10px ;"></div>
+      <div class="col-md-3 border-card "style="margin-right:50px">
+        <div class="card">
+          <div> <img src="static/domino.jpg" class="style" alt=""  class="plan-image-style"></div>
+          <div class="card-body">
+            <h3 class="card-title">plan gratuite</h3>
+            <p class="card-text">
+              <h2> 0/ TND</h2>
+              <p>3 type de testes</p>
+            <p>10 exemple</p>
+            <p>des tutos</p>
+            
+            <a href="#" class="btn btn-primary  btnby">Registre</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 border-card">
+        <div> <img src="static/brain.png" class="style" alt=""  ></div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">plan payant</h5>
+            <h2>10/ TND</h2>
+            <p class="card-text">
+        
+    <p>examins illimités</p>
+    <p>suivi votre progrés</p>
+    <p>plus claire</p>
+            </p>
+            <a href="#" class="btn btn-primary btnby">Registre</a>
+          </div>
+        </div>
+      </div>
+   
+
+
+   
+  </div>
+</div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <div class="container-fluid ctar">
+    <h3 id="find"></h3>
+   
+</div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright Upte</p>
+
+  </footer>
+
+
+</body>
+
+</html>
+
